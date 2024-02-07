@@ -1,7 +1,11 @@
+import Historia from "./components/Historia/Historia"
+import MiPrimerComponente from "./components/MiPrimerComponente/MiPrimerComponente"
+
 const App = () => {
   return (
-    <div className="w-full h-screen bg-slate-900 flex justify-center items-center">
-      <div className="w-96 h-96 bg-white"></div>
+    <div className="w-full h-screen bg-slate-900 gap-4 flex justify-center items-center">
+      <MiPrimerComponente saludo={"Hola"} nombre={"David"}/>
+      <MiPrimerComponente saludo={"Buenas tardes"} nombre={"Jairo"}/>
     </div>
   )
 }
